@@ -33,11 +33,10 @@ TF-IDF based recommender measure cosine similarity between n-grams ranging from 
 
 ![Image](Images/tfidf_word_cloud.png?raw=true)
 
-The spaCy model allowed for more nuance in plot and even included the best examples from TF-IDF Model. It allowed for a more diverse and surprising body of recommendations.
+The spaCy model allowed for more nuance in plot and even included the best examples from TF-IDF Model. It allowed for a more diverse and surprising body of recommendations. In addition, it allowed for a more query function that could handle words outside of the corpus. Below is a word cloud generated from word frequency of the top 100 recommendations for the "Ant and Grasshopper" story, which resembles 
 
 ![Image](Images/spacy_word_cloud.png?raw=true)
 
-In addition, it allowed for a more query function that could handle words outside of the corpus.
 
 ### Querying Recommendations
 The recommendation avoids the cold start problem by immediately involving the user. Queries also help avoid the cold start problem and add more surprise to the dataset,  though the functionality needs improvement.
