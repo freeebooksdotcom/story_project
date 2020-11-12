@@ -52,7 +52,7 @@ For now the queries need to be plot elements. I tried to query "Aladdin" and rec
 ![Image](Images/aladdinquery.png?raw=true)
 ![Image](Images/aladdinsummaryquery.png?raw=true)
 
-##urStory WebApp
+## urStory WebApp
 Built on Flask and hosted on Google Cloud, for every query the app gives 12 choices from a randomized selection of the top 36 results. Strong choices are shuffled with weaker choices to give more diversity.Test users enjoyed using it and said it was fun. One user tried “girl falls in love with another girl” and got a story on maternal love.  
 
 
